@@ -108,8 +108,14 @@ pip install -r requirements.txt
 
 این پروژه بیشتر برای یادگیری و ساخت یک برنامه کاربردی با Python ساخته شده است
 
-اگر میخواهید بعدا ویرایشی در کد ها انجام دهید میتوانید در ترمینال مربوط به پروژه این کد ها را وارد نمایید 
+اگر میخواهید بعدا ویرایشی در کد ها انجام دهید یا **الان هم فایل های exe به درستی اجرا نمی شوند احتمالا به دلیل حجم زیاد ** میتوانید در ترمینال مربوط به پروژه این کد ها را وارد نمایید 
 برای رابط کاربری :
+
+
 pyinstaller --clean --onefile --noconsole --name Reminder --collect-data flet midator.py
 برای بک اند :
+
+
+
+
 pyinstaller --clean --onefile --noconsole --name ReminderWorker scheduler.py
